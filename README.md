@@ -45,12 +45,15 @@ A hands-on bootcamp where you learn to build software using AI as your mentor an
 
 ## Getting started
 
+1. **Fork this repo** — click the **Fork** button at the top right of this page to create your own copy
+2. **Clone your fork:**
+
 ```bash
-git clone git@github.com:sebyx07/ai-bootcamp.git
+git clone git@github.com:YOUR_USERNAME/ai-bootcamp.git
 cd ai-bootcamp
 claude
 ```
 
-Then just say: **"I want to continue"** — Claude will find your first challenge and take it from there.
+3. Then just say: **"I want to continue"** — Claude will find your first challenge and take it from there.
 
 Let's go!

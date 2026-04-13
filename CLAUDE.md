@@ -77,8 +77,9 @@ The file `progress.md` in the repo root tracks the student's progress with check
 
 ### When a challenge is completed:
 1. Update `progress.md` — change `- [ ]` to `- [x]` for that challenge
-2. Tell the student their progress (e.g., "12/130 challenges done!")
-3. Tell them what's next
+2. Commit the `progress.md` change and push to the student's remote (`git add progress.md && git commit -m "Complete: <challenge name>" && git push`)
+3. Tell the student their progress (e.g., "12/130 challenges done!")
+4. Tell them what's next
 
 ## Challenge flow
 
