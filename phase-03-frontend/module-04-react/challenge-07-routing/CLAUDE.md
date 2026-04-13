@@ -10,22 +10,38 @@ Add React Router to the existing project. Create Home, About, and Contact pages.
 1. Ask: "Right now your app has one page. How would you add an 'About' page? Would you create a separate HTML file?" — explain that React handles it differently
 2. Explain single-page apps: "The browser loads one HTML file. React Router swaps out components based on the URL — it feels like multiple pages but it's all one app."
 3. Install React Router: `npm install react-router-dom`
-4. Set up the router using **HashRouter** in `main.jsx` or `App.jsx`:
+4. Set up the router. First wrap the app in `HashRouter` in `main.jsx`:
    ```jsx
-   import { HashRouter, Routes, Route } from 'react-router-dom';
+   import { HashRouter } from 'react-router-dom';
+   
+   createRoot(document.getElementById('root')).render(
+     <StrictMode>
+       <HashRouter>
+         <App />
+       </HashRouter>
+     </StrictMode>
+   );
    ```
    - Explain: "HashRouter uses URLs like `/#/about` — the `#` tells the browser to handle routing on the client side. This works everywhere without special server config."
+   - IMPORTANT: `createRoot` is called ONCE in `main.jsx`. Never call it again. The router wraps the app, not the other way around.
 5. Create page components: `Home.jsx`, `About.jsx`, `Contact.jsx` (reuse the form from challenge 06)
-6. Set up routes:
+6. Set up routes inside `App.jsx`:
    ```jsx
-   <HashRouter>
-     <Routes>
-       <Route path="/" element={<Home />} />
-       <Route path="/about" element={<About />} />
-       <Route path="/contact" element={<Contact />} />
-       <Route path="*" element={<NotFound />} />
-     </Routes>
-   </HashRouter>
+   import { Routes, Route } from 'react-router-dom';
+   
+   function App() {
+     return (
+       <>
+         <Navbar />
+         <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="/about" element={<About />} />
+           <Route path="/contact" element={<Contact />} />
+           <Route path="*" element={<NotFound />} />
+         </Routes>
+       </>
+     );
+   }
    ```
 7. Create a navigation bar using `<Link to="/about">` instead of `<a href>`
 8. Show `<NavLink>` for active link styling
