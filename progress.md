@@ -298,7 +298,61 @@ Check off challenges as you complete them. Say **"I want to continue"** to Claud
 - [ ] challenge-02-ai-tools-landscape
 - [ ] challenge-03-limitations-and-ethics
 
-## Phase 10 — Capstone
+## Phase 10 — Web Scraping & Reverse Engineering
+
+### Module 01: Scraping Fundamentals
+- [ ] challenge-01-what-is-web-scraping
+- [ ] challenge-02-html-structure-revisited
+- [ ] challenge-03-http-requests-and-responses
+- [ ] challenge-04-ethics-and-legality
+
+### Module 02: Playwright (JavaScript)
+- [ ] challenge-01-what-is-playwright
+- [ ] challenge-02-install-and-first-script
+- [ ] challenge-03-navigate-and-click
+- [ ] challenge-04-fill-forms-and-interact
+- [ ] challenge-05-wait-for-elements
+- [ ] challenge-06-screenshots-and-pdfs
+- [ ] challenge-07-scrape-a-dynamic-page
+
+### Module 03: Ferrum (Ruby)
+- [ ] challenge-01-what-is-ferrum
+- [ ] challenge-02-install-and-first-script
+- [ ] challenge-03-navigate-and-extract
+- [ ] challenge-04-interact-with-pages
+- [ ] challenge-05-handling-javascript-pages
+- [ ] challenge-06-scrape-a-real-site
+
+### Module 04: JS Scraping Without a Browser
+- [ ] challenge-01-what-is-cheerio
+- [ ] challenge-02-fetch-and-parse-html
+- [ ] challenge-03-extract-structured-data
+- [ ] challenge-04-puppeteer-vs-playwright
+- [ ] challenge-05-build-a-static-scraper
+
+### Module 05: MITM & Traffic Interception
+- [ ] challenge-01-what-is-mitm
+- [ ] challenge-02-install-mitmproxy
+- [ ] challenge-03-intercept-http-traffic
+- [ ] challenge-04-inspect-and-modify-requests
+- [ ] challenge-05-capture-mobile-app-traffic
+- [ ] challenge-06-ssl-pinning-and-certificates
+
+### Module 06: Reverse Engineering
+- [ ] challenge-01-what-is-reverse-engineering
+- [ ] challenge-02-browser-devtools-network-tab
+- [ ] challenge-03-find-hidden-apis
+- [ ] challenge-04-understand-request-headers
+- [ ] challenge-05-replay-api-calls
+- [ ] challenge-06-reverse-engineer-a-site
+
+### Module 07: Scraping Project
+- [ ] challenge-01-plan-your-scraper
+- [ ] challenge-02-build-it
+- [ ] challenge-03-store-the-data
+- [ ] challenge-04-handle-errors-and-edge-cases
+
+## Phase 11 — Capstone
 
 - [ ] Pick a project option
 - [ ] Plan it

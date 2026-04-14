@@ -32,7 +32,8 @@ A hands-on bootcamp where you learn to build software using AI as your mentor an
 | **07 — DevOps** | Remote servers, SSH, libvirt VMs, systemd, monitoring | 16-17 |
 | **08 — Advanced Claude Code** | Prompting, CLAUDE.md, skills, subagents, MCP | 18-19 |
 | **09 — AI Fundamentals** | How LLMs work, AI tools, limitations | 19-20 |
-| **10 — Capstone** | Build and ship a real project | 21-25 |
+| **10 — Web Scraping & RE** | Playwright, Ferrum, Cheerio, mitmproxy, reverse engineering | 21-24 |
+| **11 — Capstone** | Build and ship a real project | 25-30 |
 
 ## Rules
 
